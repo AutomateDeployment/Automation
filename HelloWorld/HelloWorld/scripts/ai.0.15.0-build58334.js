@@ -2620,6 +2620,8 @@ var Microsoft;
     })(ApplicationInsights = Microsoft.ApplicationInsights || (Microsoft.ApplicationInsights = {}));
 })(Microsoft || (Microsoft = {}));
 function initializeAppInsights() {
+
+
     try {
         if (typeof window !== "undefined" && typeof JSON !== "undefined") {
             var aiName = "appInsights";
