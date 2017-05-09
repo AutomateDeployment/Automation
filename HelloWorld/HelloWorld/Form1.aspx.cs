@@ -11,7 +11,7 @@ namespace HelloWorld
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            helloWorld.Text = "Hello World 123";
+            helloWorld.Text = "Hello World";
         }
     }
 }
